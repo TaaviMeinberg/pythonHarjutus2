@@ -24,17 +24,28 @@ def h2():
         if x < 0:
             print(x)
 
-# Harjutus 3 - boonus
-# Looge funktsioon, mis võtab sisendiks listi, mis koosneb 4st täis arvust.
-# Funktsioon peab iga listi elemendi puhul printima uuele reale nii mitu $ sümbolit kui elemendi väärtus ütleb
+def h3():
+    # Harjutus 3 - boonus
+    # Looge funktsioon, mis võtab sisendiks listi, mis koosneb 4st täis arvust.
+    # Funktsioon peab iga listi elemendi puhul printima uuele reale nii mitu $ sümbolit kui elemendi väärtus ütleb
 
-# Näiteks listi sisend = [1, 3, 4, 3] puhul prinditakse järgnev tulemus
-#$
-#$$$
-#$$$$
-#$$$
+    # Näiteks listi sisend = [1, 3, 4, 3] puhul prinditakse järgnev tulemus
+    #$
+    #$$$
+    #$$$$
+    #$$$
+    sisend = [1, 3, 4, 3, 9, 13]
+
+    for x in sisend:
+        väljund = ""
+        while x > 0:
+            x = x-1
+            väljund = väljund + "$"
+        print(väljund)
 
 
 h1()
 
 h2()
+
+h3()
