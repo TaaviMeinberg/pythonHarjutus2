@@ -57,12 +57,12 @@ def h4():
     print(vastus)
 
 
-
+print("\nHarjutus 1")
 h1()
-
+print("\nHarjutus 2")
 h2()
-
+print("\nHarjutus 3")
 h3()
-
+print("\nHarjutus 4")
 h4()
 
