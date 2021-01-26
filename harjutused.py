@@ -41,3 +41,27 @@ for arvud in list:
 #$$$
 #$$$$
 #$$$
+
+print('')
+
+#Harjutus 4
+
+import random
+import string
+
+def get_suvaline_string(pikkus):
+    tähed = string.ascii_lowercase + string.digits + string.punctuation
+    tulemus_str = ''.join(random.choice(tähed) for i in range(pikkus))
+    print("Suvaline tekstirida pikkus ", pikkus, "on:", tulemus_str)S
+
+get_suvaline_string(10)
+
+
+
+# Funktsioon peab iga listi elemendi puhul printima uuele reale nii mitu $ sümbolit kui elemendi väärtus ütleb
+
+# Näiteks listi sisend = [1, 3, 4, 3] puhul prinditakse järgnev tulemus
+#$
+#$$$
+#$$$$
+#$$$
