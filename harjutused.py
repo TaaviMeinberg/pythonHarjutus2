@@ -62,5 +62,3 @@ def h4():
         parool.append(random.choice(parooliKarakterid))
     print(''.join(parool))
 h4()
-
-
