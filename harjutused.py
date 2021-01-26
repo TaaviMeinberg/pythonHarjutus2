@@ -43,9 +43,26 @@ def h3():
             väljund = väljund + "$"
         print(väljund)
 
+def h4():
+    # Harjutus 4 - boonus boonus
+    # Palun luua funktsioon, mis genereerib etteantud pikkusea parooli, mis koosneb suvalistest tähtedest ja sümbolitest.
+    # Tähed võivad suvaliselt olla kas suured või väikesed tähed
+
+    import random
+    kõik_tähed= "abcdefghijklmnopqrsšzžtuvwõäöüxyABCDEFGHIJKLMNOPQRSŠZŽTUVWÕÄÖÜXY"
+    parooli_pikkus = int(input("Kui pikka parooli tahate?"))
+    vastus = ""
+    for x in range(parooli_pikkus):
+        vastus = vastus + random.choice(kõik_tähed)
+    print(vastus)
+
+
 
 h1()
 
 h2()
 
 h3()
+
+h4()
+
