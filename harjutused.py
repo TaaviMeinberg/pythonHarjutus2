@@ -17,11 +17,24 @@
 # Looge funktsioon, mis võtab sisendiks listi, mis koosneb 4st täis arvust.
 # Funktsioon peab iga listi elemendi puhul printima uuele reale nii mitu $ sümbolit kui elemendi väärtus ütleb
 
-# Näiteks listi sisend = [1, 3, 4, 3] puhul prinditakse järgnev tulemus
+# Näiteks listi  puhul prinditakse järgnev tulemus
 #$
 #$$$
 #$$$$
 #$$$
+sisend = [1, 3, 4, 3]
+def h3 (sisend):
+    for arv in sisend:
+        print('$' * arv)
+h3(sisend)
+#print('E' * 7)
+
+
+
+
+
+
+
 
 #H1.
 
@@ -36,10 +49,12 @@ number(5)
 
 arvud = [5, 9, 1, -2, 6, -15, -20]
 
-
-
 for arv in arvud:
     if arv < 0:
         print(arv)
+
+
+#H3
+
 
 
