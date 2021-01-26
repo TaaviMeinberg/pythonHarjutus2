@@ -49,9 +49,9 @@ print('')
 import random
 import string
 
-def get_suvaline_string(length):
+def get_suvaline_string(pikkus):
     tähed = string.ascii_lowercase + string.digits + string.punctuation
-    tulemus_str = ''.join(random.choice(tähed) for i in range(length))
-    print("Suvaline string of length", length, "is:", tulemus_str)
+    tulemus_str = ''.join(random.choice(tähed) for i in range(pikkus))
+    print("Suvaline tekstirida pikkus ", pikkus, "on:", tulemus_str)S
 
-get_suvaline_string(8)
+get_suvaline_string(10)
