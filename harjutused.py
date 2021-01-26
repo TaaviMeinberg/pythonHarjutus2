@@ -1,8 +1,16 @@
-# Harjutus 1 - Leia vahemik
-# Looge funktsioon, mis võtab sisendiks ühe arvu
-# Funktsioon peab kontrollima, kas antud arv kuulub vahemikku 0 kuni 100 või 101 kuni 1000
-    # Kui kuulub vahemikku 0 kuni 100, siis tuleb printida tekst "Arv on vahemikus 0st 100ni".
-    # Kui kuulub vahemikku 101 kuni 1000, siis tuleb printida tekst "Arv on vahemikus 101st 1000ni".
+def h1():
+    # Harjutus 1 - Leia vahemik
+    # Looge funktsioon, mis võtab sisendiks ühe arvu
+    # Funktsioon peab kontrollima, kas antud arv kuulub vahemikku 0 kuni 100 või 101 kuni 1000
+        # Kui kuulub vahemikku 0 kuni 100, siis tuleb printida tekst "Arv on vahemikus 0st 100ni".
+        # Kui kuulub vahemikku 101 kuni 1000, siis tuleb printida tekst "Arv on vahemikus 101st 1000ni".
+    sisestatud_arv = int(input("Sisestage arv: "))
+    if sisestatud_arv >= 0 and sisestatud_arv <= 100:
+        print("Arv on vahemikus 0st 100ni")
+    elif sisestatud_arv >= 101 and sisestatud_arv <= 1000:
+        print("Arv on vahemikus 101st 1000ni")
+    else:
+        print("Error")
 
 
 # Harjutus 2 - prindi negatiivsed arvud
@@ -22,3 +30,6 @@ arvud = [5, 9, 1, -2, 6, -15, -20]
 #$$$
 #$$$$
 #$$$
+
+
+h1()
