@@ -45,4 +45,22 @@ def h3():
     for arvud in arvud2:
         print('$' * arvud)
 
+
 h3()
+
+#H4
+#Palun luua funktsioon, mis genereerib etteantud pikkusega parooli, mis koosneb suvalistest tähtedest ja sümbolitest.
+#Tähed võivad olla suvaliselt kas suured või väikesed tähed.
+
+import random, string
+
+def h4():
+    parooliPikkus = int(input('Sisesta parooli pikkus positiivse täisarvuna: '))
+    parooliKarakterid = string.ascii_letters + string.digits + string.punctuation
+    parool = []
+    for arv in range(parooliPikkus):
+        parool.append(random.choice(parooliKarakterid))
+    print(''.join(parool))
+h4()
+
+
