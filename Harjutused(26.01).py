@@ -41,3 +41,17 @@ for arvud in list:
 #$$$
 #$$$$
 #$$$
+
+print('')
+
+#Harjutus 4
+
+import random
+import string
+
+def get_suvaline_string(length):
+    tähed = string.ascii_lowercase + string.digits + string.punctuation
+    tulemus_str = ''.join(random.choice(tähed) for i in range(length))
+    print("Suvaline string of length", length, "is:", tulemus_str)
+
+get_suvaline_string(8)
